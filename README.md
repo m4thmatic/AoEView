@@ -19,13 +19,14 @@ This plugin does **not** send any packets.
 
 **Aggro zones.** Around nearby aggressive monsters that are idle and unclaimed, AoEView draws where they will notice you:
 
-|-------|-------|----------------|
+|Aggro Type| Description|
+|-------|----------------|
 | Sight | Yellow cone in the direction that the mob is facing |
 | Sound | Orange circle |
 | Magic | Cyan circle |
 | Blood | Dark red circle |
 
-A monster can have more than one. Only the nearest few monsters are drawn, to keep the game running smoothly.
+A mob can have more than one. Aggro zones are only drawn on mobs within a 45yalm radius of the player.
 
 ## Installing and loading
 
